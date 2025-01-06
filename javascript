@@ -1,1 +1,40 @@
-java script crt training day 1
+JavaScript is a scripting language. JavaScript is loosely coupled.
+
+- It is used for creating interactive web pages.
+- It is used for creating desktop and mobile applications.
+- It is used for server-side programming with technologies like Node.js.
+
+Applications of JavaScript:
+- Mobile applications
+- Gaming applications
+- Server-side applications
+- Web applications
+Variables :-
+- Variables are used to store data in JavaScript.
+- They are case sensitive
+
+types of Variables
+- let: It is a block scope variable, which means it is only 
+accessible within the block it is declared in. It can be reassigned.
+
+- const: It is also a block scope variable, 
+but it cannot be reassigned. It is used for declaring constants.
+
+- var: It is a function scope variable, 
+which means it is accessible throughout the function it is declared in. It can be reassigned.
+
+example codes:
+ <script>
+        let name="venkat"
+        {
+            let name="durga"
+            console.log(name);
+            console.log(name);
+            document.write(name,"<br>"); 
+        }
+          
+          console.log(name)
+        console.log(name)
+        document.write(name)
+    </script>
+    
