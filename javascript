@@ -37,4 +37,34 @@ example codes:
         console.log(name)
         document.write(name)
     </script>
-    
+Dynamic type language
+Two types
+1)primitive
+2) Non - Primitive data type
+primitive data type: predefined; we can store single values
+1)Numbers: integers,floats
+2) String : Stream of chareters enclosed in quotes
+--single ,double ,backtick quotes;
+3) Boolean: true or false
+4) Null: nothing
+5) Undefined: no value assigned
+
+-->1)Numbers: +,-,
+ex:-1,1,-4,5.6 etc
+-->2) String : Stream of chareters enclosed in quotes
+ex: "venkat" ,"hemalatha" ,"karuna", etc
+exemple code:
+  <script>
+    let name="venkat"
+    console.log(name)
+  </script>
+-->3) Boolean: true or false
+ex:True or false
+example code for all the baove one using typeof
+<script>
+let name="venkat"
+console.log(typeof name);
+console.log(typeof 5);
+console.log(typeof true);
+console.log(typeof null);
+</script>
