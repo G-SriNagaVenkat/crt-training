@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+a:<input type="number" id="a-button"></input>
+b:<input type="number" id="b-button"></input>
+<button id="Submit">submit</button>
+<div id="result"></div>
+<script>
+    document.getElementById("Submit").addEventListener("click",function(){
+        var a=parseInt(document.getElementById('a-button').value);
+        var b=parseInt(document.getElementById("b-button").value);
+        var result = document.getElementById("result");
+        if (a>b) result.innerHTML = "a is greater than b";
+        if (a<b) result.innerHTML = "a is less than b";
+        if (a==b) result.innerHTML = "a is equal to b";
+    })
+</script>
+</body>
+</html>
