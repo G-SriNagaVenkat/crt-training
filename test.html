@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><script>
+    let a = parseInt(prompt("Enter a number"))
+    if(a%2==0 && a%3==0){
+        document.write("the number is divisible by 2 and 3")
+    }else if(a%2==0){
+        document.write("the number is divisible by 2 but not by 3")
+    }else if(a%3==0){
+        document.write("the number is divisible by 3 but not by 2")
+    }else{
+        document.write("the number is not divisible by 2 and 3")
+    }
+</script>
+<script>
+    let n = parseInt(prompt("Enter 1st number"))
+    let m = parseInt(prompt("Enter 2nd number"))
+    let o = parseInt(prompt("Enter 3rd number"))
+    if(n>m && n>o){
+        document.write("n is greater than both m and o")
+    }else if(m>n && m>o){
+        document.write("m is greater than both n and o")
+    }else {
+        document.write("o is greater than both n and m")
+    }
+</script>
+<script>
+    let x = parseInt(prompt("Enter number of working days"))
+    let z = parseInt(prompt("Enter number of days for absence"))
+    
+    if(x>z && x>0 && z>0){
+        let percentage = (z*100)/x
+        if(percentage<75){
+            document.write("the student is not eligible to write exam")
+        }else{
+            document.write("the student is eligible to write exam")
+        }
+    }
+</script>
+
+<script>
+    let salary = parseInt(prompt("Enter salary"));
+let time = parseInt(prompt("Enter the number of years:"));
+if (time > 10) {
+    let bonus = (salary * 10) / 100;
+    document.write(`Bonus is ${bonus} and salary is ${salary + bonus} for ${time} years of service`);
+} else if (time >= 6 && time <= 10) {
+    let bonus = (salary * 8) / 100;
+    document.write(`Bonus is ${bonus} and salary is ${salary + bonus} for ${time} years of service`);
+} else if (time < 6) {
+    let bonus = (salary * 5) / 100;
+    document.write(`Bonus is ${bonus} and salary is ${salary + bonus} for ${time} years of service`);
+} else {
+    document.write("Invalid input");
+}
+</script>
+   
+</body>
+</html>
