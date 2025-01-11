@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Over+the+Rainbow&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body><script>
+<!-- <body><script>
     let a = parseInt(prompt("Enter a number"))
     if(a%2==0 && a%3==0){
         document.write("the number is divisible by 2 and 3")
@@ -58,7 +62,71 @@ if (time > 10) {
 } else {
     document.write("Invalid input");
 }
+</script> -->
+<!-- <script>
+ 
+    let day = parseInt(prompt("Enter day of the week"))
+  
+switch(day){
+    case 7:
+        document.write("Sunday, it's a weekend")
+        break;
+    case 6:
+        document.write("Saturday, it's a weekend")
+        break;
+    case 5:
+        document.write("Friday, it's a weekday")
+        break;
+    case 4:
+        document.write("Thursday, it's a weekday")
+        break;
+    case 3:
+        document.write("Wednesday, it's a weekday")
+        break;
+    case 2:
+        document.write("Tuesday, it's a weekday")
+        break;
+    case 1:
+        document.write("Monday, it's a weekday")
+        break;
+    default:
+        document.write("Invalid input")
+}
+    
+</script> -->
+
+<!-- <script>
+    let bill = parseInt(prompt("Enter the electricity bill"));
+    let units = 0;
+    if (bill <= 100) {
+        units = bill / 2;
+    } else if (bill <= 350) {
+        units = 50 + (bill - 100) / 3;
+    } else if (bill <= 800) {
+        units = 150 + (bill - 350) / 5;
+    } else {
+        units = 250 + (bill - 800) / 8;
+    }
+    //units = units / 1.2;
+    document.write("The total units used are: " + units);
+    
+</script> -->
+<script>
+  let num = parseInt(prompt("Enter a number"));
+if(num>=1 ){
+    for (let i=2;i<num;i++){
+        if(num%i==0){
+        document.write(num+'the number is not prime');
+        break;
+    }else{
+        document.write(num+'the number is prime');
+        break;
+    }}
+
+}else{
+    document.write('the number is not prime');
+}
 </script>
-   
+
 </body>
 </html>
