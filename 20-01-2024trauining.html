@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Over+the+Rainbow&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script>
+        //for loop printing till 9 from 0
+        for (let i = 0; i < 10; i++) {
+            document.write(i);
+            
+        }
+        document.write("<br/>");
+        //by imcrementing in for loop condition 
+        for(let i=2;i<=9;i+=2){
+            document.write(i+3+"  ");//adding 3 for the output
+        }
+        document.write("<br/>");
+        //printing chru 5 times
+        for(let i=0;i<5;i++){
+            document.write("chiru"+"  ");
+        }
+         //array
+         document.write("<br/>");
+         let arr=[1,2,3,4,5]; 
+let sum=0; 
+for(let i=0;i<arr.length;i++){
+    sum+=arr[i];
+    } 
+    document.write("array:"+arr);
+    document.write("<br/>");
+    document.write("sum of all elemnets in array:"+sum);
+
+    </script>
+</body>
+</html>

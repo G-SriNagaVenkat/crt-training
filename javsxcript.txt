@@ -1,0 +1,159 @@
+```
+JavaScript is a scripting language. JavaScript is loosely coupled.
+
+Applications of JavaScript:
+  - Mobile applications
+  - Gaming applications
+  - Server-side applications
+  - Web applications
+
+Variables:
+  - Variables are used to store data in JavaScript.
+  - They are case sensitive
+
+Types of Variables:
+  - let: It is a block scope variable, which means it is only accessible within the block it is declared in. It can be reassigned.
+  - const: It is also a block scope variable, but it cannot be reassigned. It is used for declaring constants.
+  - var: It is a function scope variable, which means it is accessible throughout the function it is declared in. It can be reassigned.
+
+Example Codes:
+  <script>
+    let name = "venkat"
+    {
+      let name = "durga"
+      console.log(name);
+      console.log(name);
+      document.write(name, "<br>");
+    }
+    console.log(name)
+    console.log(name)
+    document.write(name)
+  </script>
+
+Dynamic Type Language:
+  Two types:
+    1. Primitive
+    2. Non-Primitive data type
+
+Primitive Data Type:
+  - Predefined; we can store single values
+  - Types:
+    1. Numbers: integers, floats
+    2. String: Stream of characters enclosed in quotes
+      - single, double, backtick quotes
+    3. Boolean: true or false
+    4. Null: nothing
+    5. Undefined: no value assigned
+
+Example Codes:
+  <script>
+    let name = "venkat"
+    console.log(name)
+  </script>
+
+  <script>
+    let name = "venkat"
+    console.log(typeof name);
+    console.log(typeof 5);
+    console.log(typeof true);
+    console.log(typeof null);
+  </script>
+
+Arithmetic Operators:
+  1. + : addition
+  2. - : subtraction
+  3. * : multiplication
+  4. / : division
+  5. % : modulus
+  6. ** : exponentiation
+  7. ++ : increment
+  8. -- : decrement
+
+Example Code:
+  <script>
+    let a = 10;
+    let b = 5;
+    document.write("Addition: " + (a + b) + "<br>");
+    document.write("Subtraction: " + (a - b) + "<br>");
+    document.write("Multiplication: " + (a * b) + "<br>");
+    document.write("Division: " + (a / b) + "<br>");
+    document.write("Modulus: " + (a % b) + "<br>");
+    document.write("Exponentiation: " + (a ** b) + "<br>");
+    document.write("Increment: " + (++a) + "<br>");
+    document.write("Decrement: " + (--b) + "<br>");
+  </script>
+
+Logical Operators:
+  1. && : and
+  2. || : or
+  3. ! : not
+  4. == : equal to
+  5. != : not equal to
+  6. === : equal to and same type
+  7. !== : not equal to and not same type
+  8. > : greater than
+  9. < : less than
+  10. >= : greater than or equal to
+  11. <= : less than or equal to
+
+Example Code:
+  <script>
+    let a = 10;
+    let b = 5;
+    document.write("And: " + (a > 5 && b < 10) + "<br>");
+    document.write("Or: " + (a > 5 || b < 5) + "<br>");
+    document.write("Not: " + !true + "<br>");
+    document.write("Equal to: " + (a == 10) + "<br>");
+    document.write("Not equal to: " + (a != 5) + "<br>");
+    document.write("Equal to and same type: " + (a === 10) + "<br>");
+    document.write("Not equal to and not same type: " + (a !== '10') + "<br>");
+    document.write("Greater than: " + (a > 5) + "<br>");
+    document.write("Less than: " + (a < 15) + "<br>");
+    document.write("Greater than or equal to: " + (a >= 10) + "<br>");
+    document.write("Less than or equal to: " + (a <= 10) + "<br>");
+  </script>
+ ternary Operators
+ 1. ?: : ternary operator
+ Example Code:
+ <script>
+        let a = 10;
+        let b = 5;
+        document.write("Ternary operator: " + (a > b ? "a is greater than "));
+       document.write("b" : "a is less than or equal to b") + "<br>");
+ </script>
+       <script>
+                let a = parseInt(prompt("give 'a' as input"));
+                let b = parseInt(prompt("give 'b' as input"));
+                document.write("Addition: " + (a + b) + "<br>");
+                document.write("Subtraction: " + (a - b) + "<br>");
+                document.write("Multiplication: " + (a * b) + "<br>");
+                document.write("Division: " + (a / b) + "<br>");
+                document.write("Modulus: " + (a % b) + "<br>");
+                document.write("Exponentiation: " + (a ** b) + "<br>");
+                document.write("Increment: " + (a++) + "<br>");
+                document.write("Decrement: " + (b--) + "<br>");10
+      </script>
+Conditional Statments:
+definition: conditional statements are used to execute a block of code if a certain condition is met.
+1. if : if statement
+2. else if : else if statement
+3. else : else statement
+Example Code:
+<script>
+let a = 10;
+let b = 5;
+if (a > b) {
+  document.write("a is greater than b");
+  } else {
+    document.write("a is less than or equal to b");
+    }
+    </script>
+
+```javascript
+
+```
+loops: block of code several times
+1)for loops
+2)while loops
+3)do while loops
+
