@@ -1,0 +1,16 @@
+loops: block of code several times
+1)for loops
+2)while loops
+3)do while loops
+
+whiles loop example:
+let i = 0;
+while (i < 5) {
+  document.write(i + "<br>");
+  i++;
+  }
+//t = 2 , 2 <= 8, true , 3, t = 2 + 2 = 4
+        //t = 4 , 4 <= 8, true, 5, t = 4 + 2 = 6
+        //t = 6, 6 <= 8, true, 7, t = 6 + 2 = 8
+        //t = 8, 8 <= 8, true, 9, t = 8 + 2 = 10
+        //t = 10, 10 <= 8, false
