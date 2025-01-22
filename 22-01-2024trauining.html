@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // This loop prints numbers from 2 to 8
+        for(let i=2;i<=8;i++){
+            document.write(i);
+        }
+
+        // This nested loop prints numbers from 0 to 3, 
+        // followed by numbers from 1 to 4, and then a line break
+        for(let i=0;i<=3;i++){
+            document.write(i,"<br/>");
+            for(let j=1;j<=4;j++){
+                document.write(j,"");
+            }
+            document.write("<br/>");
+        }
+
+        // This section prints a pyramid pattern of asterisks (*)
+        // The first loop prints the top half of the pyramid
+        for(let i=0;i<=5;i++){
+            // This inner loop prints asterisks for each row of the pyramid
+            for(let j=0;j<=i;j++){
+                document.write("*");
+            }
+            document.write('<br/>');
+        }
+
+        // The second loop prints the bottom half of the pyramid
+        for(let i=0;i<=5;i++){
+            // This inner loop prints asterisks for each row of the pyramid
+            for(let j=0;j<=5-i;j++){
+                document.write("*");
+            }document.write('<br/>')
+        }
+
+        // This section prints a right-aligned pyramid pattern of asterisks (*)
+        for (let i = 1; i <= 4; i++) {
+            // This loop prints spaces to align the pyramid to the right
+            for (let j = 1; j <= 4 - i; j++) {
+                document.write("&nbsp;");
+            }
+            // This loop prints asterisks for each row of the pyramid
+            for (let k = 1; k <= i; k++) {
+                document.write("*");
+            }
+            document.write("<br>");
+        }
+        // This line break separates the pyramid patterns
+        document.write("<br>");
+    </script>
+</body>
+</html>
