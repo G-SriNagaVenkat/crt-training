@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Functions in JavaScript</title>
+  </head>
+  <body>
+   
+    <script>
+        /* 
+  <h1>Functions</h1> 
+  <p>A function is a reusable block of code.</p> 
+  <p>It can call any where in the program.</p> 
+  <p>Reusable code: using the existing code without writing it ever we need</p> 
+  <p>You can use the same code with different arguments to get the results.</p> 
+  <h2>JS:</h2> 
+  <p>Key-word = function</p> 
+  <p>PARAMETERS: = values (variables) which are declared inside the () while defining the a functions.</p> 
+  <p>Arguments: values which are passed through the parameters at the time of calling the function</p> 
+*/
+      //function example
+      function greet(){
+        document.write("hello","<br>")
+      }
+      greet()
+      document.write("hiii","<br>")
+      greet()
+      document.write("gm","<br>")
+      greet()
+
+      //function with parameter
+      function g(name){
+        document.write("hiii " +name)
+      }
+      let name=prompt("enter your name")
+      g(name)
+
+      //function return
+      function a(aa,bb){
+        return aa+bb;
+      }
+      let n1=parseFloat(prompt("enter a number1 "))
+      let n2=parseFloat(prompt("enter a number2 "))
+      ///calling function
+      let result = a(n1,n2)
+      document.write("the result is:" +result)
+
+      //anonymous function
+      let sum = function(n1,n2){
+        let r= n1+n2
+        return r
+      }
+      document.write(sum(8,9))
+    </script>
+  </body>
+</html>
