@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+
+    //arrow function with single parameter
+    const add = a => {  
+        return a+a;
+    }
+    const num1 = parseInt(prompt("Enter first number"));
+   
+    let sum= add(num1);
+    document.write(sum)
+    //arrow function with turnery operator
+    document.write("<br/>")
+    const isEven = n => n % 2 === 0 ? "Even" : "Odd";
+    let evod=isEven(num1)
+    document.write(evod)
+    //using Settimeout
+    document.write("<br/>") 
+    document.write("hi raju")
+    setTimeout(()=>{
+        document.write("welcome to my website")
+    },5000);
+    document.write("<br/>")
+    document.write("very good website")
+    //implementing callback function
+    document.write("<br/>")
+
+    function greet(name,callback){
+        console.log("hello "+name)
+        callback()
+        }
+   </script>
+</body>
+</html>
