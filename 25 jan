@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+
+    //arrow function with single parameter
+    const add = a => {  
+        return a+a;
+    }
+    const num1 = parseInt(prompt("Enter first number"));
+   
+    let sum= add(num1);
+    document.write(sum)
+    //arrow function with turnery operator
+    document.write("<br/>")
+    const isEven = n => n % 2 === 0 ? "Even" : "Odd";
+    let evod=isEven(num1)
+    document.write(evod)
+    //using Settimeout
+    document.write("<br/>") 
+    document.write("hi raju")
+    setTimeout(()=>{
+        document.write("welcome to my website")
+    },5000);
+    document.write("<br/>")
+    document.write("very good website")
+    //implementing callback function
+    document.write("<br/>")
+
+    function greet(name,callback){
+        console.log("hello "+name)
+        callback()
+        }
+        //we can pass teh caallback function as argunement to another function
+        //execution
+        function MainFunction(){
+        console.log("Execeution main functiin")
+        callback()
+        }
+        function callbackFunction(){
+        comsole.log("callbackduntion exceution")
+        }
+
+        function greet(name,callback){
+          document.write(Hello, ${name},'<br>');
+          callback();
+        }
+
+        function sayGoodBye(){
+          document.write('Good Bye','<br>');
+        }
+        greet('Samantha',sayGoodBye);
+
+        function fetchData(callback) {
+    console.log("Fetching data...");
+
+    
+    setTimeout(function () {
+        console.log("Data fetched...");
+        callback(); 
+    }, 2000);
+}
+
+function processData() {
+    console.log("Processing the fetched data...");
+}
+
+
+fetchData(processData);
+        
+
+   </script>
+</body>
+</html>
