@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // A promise is a special JavaScript object that represents the eventual completion (or failure) of an asynchronous operation.
+// Three states:
+//   - Pending: the initial state, the promise is still waiting for the operation to finish
+//   - Fulfilled: the operation completes successfully
+//   - Rejected: the operation failed
+
+// To create a promise: new Promise();
+// The promise constructor takes a function with two parameters:
+//   - resolve: to mark the promise as successful
+//   - reject: to mark it as failed
+
+// Handling:
+//   - .then() method is called when the promise is fulfilled. It receives the result from the resolve();
+//   - .catch() method is called when the promise is rejected. It receives the result from the reject();
+let mypromise= new Promise((resolve , reject)=>{
+            let success = true
+            if(success){
+                resolve("the operation was sussessful","<br>")
+            }else{
+                reject("the operation failed")
+            }
+        });
+        mypromise
+        .then(result=>{
+            document.write(result)
+        })
+        .catch(error=>{
+            document.write(error)
+        })
+
+        // A promise is a special JavaScript object that represents the eventual completion (or failure) of an asynchronous operation.
+        // Three states:
+        //   - Pending: the initial state, the promise is still waiting for the operation to finish
+        //   - Fulfilled: the operation completes successfully
+        //   - Rejected: the operation failed
+
+        // To create a promise: new Promise();
+        // The promise constructor takes a function with two parameters:
+        //   - resolve: to mark the promise as successful
+        //   - reject: to mark it as failed
+
+        // Handling:
+        //   - .then() method is called when the promise is fulfilled. It receives the result from the resolve();
+        //   - .catch() method is called when the promise is rejected. It receives the result from the reject();
+
+        // Example 1: Basic Promise
+        // let mypromise= new Promise((resolve , reject)=>{
+        //     let success = true
+        //     if(success){
+        //         resolve("the operation was successful","<br>")
+        //     }else{
+        //         reject("the operation failed")
+        //     }
+        // });
+        // mypromise
+        // .then(result=>{
+        //     document.write(result)
+        // })
+        // .catch(error=>{
+        //     document.write(error)
+        // })
+
+        // Example 2: Chaining Promises
+        // let promise= new Promise((resolve , reject)=>{
+        //     resolve(5);
+        // })
+        // promise
+        // .then(result=>{
+        //     document.write(result,"<br>")
+        //     return result*2
+        // })
+        // .then(result=>{
+        //     document.write(result,"<br>");
+        //     return result+3;
+        // })
+        // .then(result=>{
+        //     document.write(result,"<br>")
+        // })
+        // .catch(error=>{
+        //     document.write("error" ,error)
+        // })
+
+        // Example 3: Promise with setTimeout
+        // let delayedPromise = new Promise((resolve, reject) => {
+        //     setTimeout(() => {
+        //         resolve("Promise resolved after 2 seconds");
+        //     }, 2000);
+        // });
+        // delayedPromise
+        // .then(result => {
+        //     document.write(result);
+        // })
+        // .catch(error => {
+        //     document.write("Error:", error);
+        // });
+
+        // Example 4: Promise with setTimeout and Data Fetching
+        let fetchData=new Promise((resolve, reject)=>{
+            let datafetched=false
+            setTimeout(()=>{
+                if(datafetched){
+                    resolve("data fetched successfully")
+                }else{
+                    reject("failed to fetch")
+                }
+            },2000)
+        })
+        fetchData
+        .then(result=>{
+            document.write(result,"<br>")
+        })
+        .catch(error=>{
+            document.write(error)
+        })
+    </script>
+</body>
+</html>
+    </script>
+</body>
+</html>
