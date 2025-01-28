@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Document Object Module (DOM): It is a programming interface in web development 
+        // that allows us to interact and manipulate (change) the html documents. 
+        // When the web page is loaded, the browser creates the DOM of the webpage. 
+        // When an html file is loaded into the browser, the JavaScript cannot understand 
+        // the html document directly. DOM is basically the representation of same html 
+        // document but in a treelike structure composed of objects. 
+        // HTML dom it allows JavaScript to access and modify all the elements in HTML document.
+
+        // Key points:
+        // 1. Structure: the DOM represents the structure of html document as tree; 
+        // each node in a tree represents the element, an attribute, text
+        // 2. Manipulation: using js, you can interact with elements like buttons, headings, paragraphs.
+        // 3. Event Handling: 
+        // 4. W3C – world wide web consortium 
+        // In DOM all elements are defined as objects
+        // Property: is a value that you can set to the objects.(like changing the content of html element)
+        // Method: an action (like add or delete)
+
+        // Getting element by id
+        // let js = document.getElementById('a');
+        // console.log(js);
+
+        // Example:
+        // <p id="a">This is a paragraph</p>
+        // <script>
+        // let js = document.getElementById('a');
+        // console.log(js);
+        // </script>
+
+    // Getting element by class
+    // let q = document.getElementsByClassName('a');
+    // console.log(q);
+
+    // Example:
+    // <p class="a">This is a paragraph</p>
+    // <p class="a">This is another paragraph</p>
+    //
+    <script>
+        // let q = document.getElementsByClassName('a');
+        // console.log(q);
+        // </script>
+
+    // Getting element by tagname
+    // Example:
+    // <p>This is a paragraph</p>
+    // <p>This is another paragraph</p>
+    //
+    <script>
+        // let q = document.getElementsByTagName('p');
+        // console.log(q);
+        // </script>
+
+    // Getting element by query selector
+    // Example:
+    // <p class="a">This is a paragraph</p>
+    // <p class="b">This is another paragraph</p>
+    //
+    <script>
+        // let q = document.querySelector('.a');
+        // console.log(q);
+        // </script>
+    </script>
+</body>
+
+</html>
