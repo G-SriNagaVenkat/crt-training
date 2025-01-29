@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="b" >Sai</h1>
+    <h1 class="c" >ram</h1>
+    <h1 class="a" >ramesh</h1>
+    <h1 class="c" >hari</h1>
+
+    <script>
+        let x= document.getElementsByClassName('a')
+            console.log(x)
+
+            for(let i=0;i<x.length;i++){
+                console.log(x[i])
+            }
+</script>
+<script>
+let js = document.getElementById('a');
+console.log(js);
+
+let q = document.getElementsByClassName('a');
+console.log(q);
+for(let i=0;i<q.length;i++){
+    console.log(q[i]);
+}
+
+let k = document.getElementsByTagName('h1');
+document.write(k);
+
+let l = document.querySelector('.a');
+console.log(l);
+
+let m = document.querySelectorAll('.a');
+console.log(m);
+
+let n = document.createElement('h1');
+n.className = 'b';
+n.textContent = 'Hello';
+console.log(n);
+document.body.appendChild(n);
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .a{
+        color: aqua;
+      }
+    </style>
+</head>
+<body>
+
+  <h1 class="a" id="a">Hello</h1>
+  <h1 class="a" id="b">hola</h1>
+  <h1 class="b" id="c">Namaste</h1>
+    <script>
+        // let js = document.getElementById('a');
+        // console.log(js);
+        // let q = document.getElementsByClassName('a');
+        // console.log(q);
+
+        let m = document.createElement('h1');
+        k.className = 'b';
+        k.textContent = 'Hello';
+        console.log(k)
+        document.body.appendChild(k);
+    </script>
+</body>
+</html>
+</body>
+</html>
