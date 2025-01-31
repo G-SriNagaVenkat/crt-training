@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Define the document type and language -->
+<html lang="en">
+<head>
+    <!-- Set the character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- Set the viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the document -->
+    <title>Document</title>
+</head>
+<body>
+    <!-- Create a container element to hold other elements -->
+    <div id="container">
+        <!-- Create a sub-container element with id 'a' -->
+        <div id="a">
+            <!-- Create a heading element with id 'd' and text content 'mani' -->
+            <h1 id="d">mani</h1>
+            <!-- Create another heading element with text content 'hari' -->
+            <h1>hari</h1>
+        </div>
+        <!-- Create another sub-container element with id 'b' -->
+        <div id="b">
+            <!-- Create a subheading element with text content 'ram' -->
+            <h2>ram</h2>
+            <!-- Create another subheading element with text content 'sai' -->
+            <h2>sai</h2>
+        </div>
+    </div>
+    <!-- Add a script element to execute JavaScript code -->
+    <script>
+        // Get a reference to the container element
+        const container = document.getElementById('container');
+        // Create a new heading element
+        const newElement = document.createElement('h1');
+        // Set the text content of the new element
+        newElement.textContent = "Malla Reddy University";
+        // Replace the children of the container element with the new element
+        container.replaceChildren(newElement);
+    </script>
+</body>
+</html>
