@@ -1,0 +1,13 @@
+.message{
+  color: white;
+  font-size: 80px;
+  background-color: pink;
+  text-align:center;
+  width: auto;
+  margin-left: 60px;
+  margin-right: 60px;
+  height: 50px;
+  padding-top: 20px;
+  padding-bottom:80px;
+  border-radius:20px;
+}
