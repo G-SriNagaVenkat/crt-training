@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: white;
+            position: relative;
+            overflow: hidden;
+        }
+        .light-bulb {
+            width: 150px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .button {
+            position: absolute;
+            bottom: 50px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: rgb(121, 12, 255);
+        }
+    </style>
+</head>
+<body id="body">
+    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-off-img.png" class="light-bulb" id="bulbImage" alt ="" style="z-index: 1;"/>
+    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png" class="light-bulb" id="bulbImageOn" alt ="" style="z-index: 0; display: none;"/>
+    <button class="button" id="toggleButton" onClick="toggleLight()">Turn On</button>
+    <script>
+        let isOn=false;
+        function toggleLight(){
+            const body=document.getElementById("body")
+            const bulbImage=document.getElementById('bulbImage')
+            const bulbImageOn=document.getElementById('bulbImageOn')
+            const toggleButton=document.getElementById('toggleButton')
+            if(isOn=!isOn);
+            if(isOn){
+                body.style.backgroundColor='lightyellow ';
+                bulbImage.style.display = 'none';
+                bulbImageOn.style.display = 'block';
+                toggleButton.innerText='Turn Off';
+            }else{
+                body.style.backgroundColor='grey';
+                bulbImage.style.display = 'block';
+                bulbImageOn.style.display = 'none';
+                toggleButton.innerText="Turn On";
+            }
+        }
+    </script>
+</body>
+</html>
