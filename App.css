@@ -1,13 +1,37 @@
-.message{
-  color: white;
-  font-size: 80px;
-  background-color: pink;
-  text-align:center;
-  width: auto;
-  margin-left: 60px;
-  margin-right: 60px;
-  height: 50px;
-  padding-top: 20px;
-  padding-bottom:80px;
-  border-radius:20px;
+.App {
+  text-align: center;
 }
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Bulb-image {
+  width: 150px;
+  height: auto;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.Switch-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #61dafb;
+  color: #282c34;
+  transition: background-color 0.3s ease;
+}
+
+.Switch-button:hover {
+  background-color: #21a1f1;
+}
+
