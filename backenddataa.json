@@ -1,0 +1,73 @@
+
+[
+  {
+    "id": 1,
+    "pname": "mobile1",
+    "pcost": 10000,
+    "pimage": "https://m.media-amazon.com/images/I/713SsA7gftL.AC_UF1000,1000_QL80.jpg",
+    "pqty": 10
+  },
+  {
+    "id": 2,
+    "pname": "mobile2",
+    "pcost": 20000,
+    "pimage": "https://rukminim2.flixcart.com/image/850/1000/xif0q/mobile/7/c/t/105-single-sim-keypad-mobile-phone-with-wireless-fm-radio-ta-original-imah3nhecpzsx3g9.jpeg?q=90&crop=false",
+    "pqty": 20
+  },
+  {
+    "id": 3,
+    "pname": "mobile3",
+    "pcost": 500000,
+    "pimage": "https://www.techadvisor.com/wp-content/uploads/2025/02/best-phones-2025-2.jpg?quality=50&strip=all",
+    "pqty": 30
+  },
+  {
+    "id": 4,
+    "pname": "mobile4",
+    "pcost": 600000,
+    "pimage": "https://darlingretail.com/cdn/shop/products/1_7b64958c-304b-43bd-b759-c5366bfa9914_600x.jpg?v=1661581431",
+    "pqty": 40
+  },
+  {
+    "id": 5,
+    "pname": "mobile5",
+    "pcost": 80000,
+    "pimage": "https://m.media-amazon.com/images/I/61GtRDZdhVL.jpg",
+    "pqty": 50
+  },
+  {
+    "id": 6,
+    "pname": "watch1",
+    "pcost": 5000,
+    "pimage": "https://ecommbat.s3.eu-north-1.amazonaws.com/watch1.jpeg",
+    "pqty": 15
+  },
+  {
+    "id": 7,
+    "pname": "watch2",
+    "pcost": 7000,
+    "pimage": "https://ecommbat.s3.eu-north-1.amazonaws.com/watch2.jpeg",
+    "pqty": 20
+  },
+  {
+    "id": 8,
+    "pname": "watch3",
+    "pcost": 12000,
+    "pimage": "https://ecommbat.s3.eu-north-1.amazonaws.com/watch3.jpeg",
+    "pqty": 25
+  },
+  {
+    "id": 9,
+    "pname": "watch4",
+    "pcost": 15000,
+    "pimage": "https://ecommbat.s3.eu-north-1.amazonaws.com/watch4.jpeg",
+    "pqty": 30
+  },
+  {
+    "id": 10,
+    "pname": "watch5",
+    "pcost": 18000,
+    "pimage": "https://ecommbat.s3.eu-north-1.amazonaws.com/watch5.jpeg",
+    "pqty": 35
+  }
+]
