@@ -1,0 +1,37 @@
+[
+  {
+    "wname": "watch1",
+    "wcost": 6000,
+    "wimage": "https://ecommbat.s3.eu-north-1.amazonaws.com/watch4.jpeg",
+    "wqty": 26,
+    "id": 1
+  },
+  {
+    "wname": "watch2",
+    "wcost": 5000,
+    "wimage": "https://ecommbat.s3.eu-north-1.amazonaws.com/watch2.jpeg",
+    "wqty": 19,
+    "id": 2
+  },
+  {
+    "wname": "watch3",
+    "wcost": 7000,
+    "wimage": "https://ecommbat.s3.eu-north-1.amazonaws.com/watch3.jpeg",
+    "wqty": 12,
+    "id": 3
+  },
+  {
+    "wname": "watch4",
+    "wcost": 5500,
+    "wimage": "https://ecommbat.s3.eu-north-1.amazonaws.com/watch1.jpeg",
+    "wqty": 15,
+    "id": 4
+  },
+  {
+    "wname": "watch5",
+    "wcost": 6500,
+    "wimage": "https://ecommbat.s3.eu-north-1.amazonaws.com/watch5.jpeg",
+    "wqty": 17,
+    "id": 5
+  }
+]
