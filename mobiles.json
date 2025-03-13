@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "pname": "mobile1",
+    "pcost": 10000,
+    "pimage": "https://ecommproject1.s3.eu-north-1.amazonaws.com/1.png",
+    "pqty": 10
+  },
+  {
+    "id": 2,
+    "pname": "mobile2",
+    "pcost": 15000,
+    "pimage": "https://ecommproject1.s3.eu-north-1.amazonaws.com/2.png",
+    "pqty": 12
+  },
+  {
+    "id": 3,
+    "pname": "mobile3",
+    "pcost": 17000,
+    "pimage": "https://ecommproject1.s3.eu-north-1.amazonaws.com/3.png",
+    "pqty": 13
+  },
+  {
+    "id": 4,
+    "pname": "mobile4",
+    "pcost": 45000,
+    "pimage": "https://ecommproject1.s3.eu-north-1.amazonaws.com/4.png",
+    "pqty": 22
+  },
+  {
+    "id": 5,
+    "pname": "mobile5",
+    "pcost": 27000,
+    "pimage": "https://ecommproject1.s3.eu-north-1.amazonaws.com/5.png",
+    "pqty": 7
+  }
+]
