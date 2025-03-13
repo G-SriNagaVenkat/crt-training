@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "lname": "laptop1",
+    "lcost": 60000,
+    "limage": "https://ecommproject1.s3.eu-north-1.amazonaws.com/laptop5.jpeg",
+    "lqty": 10
+  },
+  {
+    "id": 2,
+    "lname": "laptop2",
+    "lcost": 65000,
+    "limage": "https://ecommproject1.s3.eu-north-1.amazonaws.com/laptop1.jpeg",
+    "lqty": 12
+  },
+  {
+    "id": 3,
+    "lname": "laptop3",
+    "lcost": 68000,
+    "limage": "https://ecommproject1.s3.eu-north-1.amazonaws.com/laptop2.jpeg",
+    "lqty": 9
+  },
+  {
+    "id": 4,
+    "lname": "laptop4",
+    "lcost": 59000,
+    "limage": "https://ecommproject1.s3.eu-north-1.amazonaws.com/laptop3.jpeg",
+    "lqty": 11
+  },
+  {
+    "id": 5,
+    "lname": "laptop5",
+    "lcost": 74000,
+    "limage": "https://ecommproject1.s3.eu-north-1.amazonaws.com/laptop4.jpeg",
+    "lqty": 8
+  }
+]
